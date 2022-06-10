@@ -1,2 +1,2 @@
 # contao_j_scrolltotop
-Scroll-to-top button vis JS
+Scroll-to-top button vas JS
