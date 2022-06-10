@@ -1,1 +1,25 @@
-
+<script> 
+$(document).ready(function(){
+	// Create Button
+	var back_to_top_button = ['<a href="#top" class="back-to-top"><span class="large material-icons">keyboard_arrow_up</span></a>'].join("");
+	$("body").append(back_to_top_button)
+	// Fade Out Button
+	$(".back-to-top").hide();
+	// Scroll Behaviour
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 500) { // if scrolled by 100 Px
+				$('.back-to-top').fadeIn();
+			} else {
+				$('.back-to-top').fadeOut();
+			}
+		});
+		$('.back-to-top').click(function () { // Click to Button
+			$('body,html').animate({
+				scrollTop: 0
+			}, 500);
+			return false;
+		});
+	});
+});
+</script>
