@@ -1,0 +1,13 @@
+/* Adjust to your needs */
+a.back-to-top {
+    background: #4387BB;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+	  z-index: 100;
+	  &:hover{
+		  color: #bbb;
+	}
+}
