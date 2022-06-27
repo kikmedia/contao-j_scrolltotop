@@ -1,6 +1,6 @@
 # Contao j_scrolltotop
 
-Scroll-to-top button via JS as a simple drop-in for Contao CMS.
+Scroll-to-top button via JS as a simple drop-in for Contao CMS. The button is created via JS, so it won't show up if JS is deactivated.
 
 ## Prerequisites
 
